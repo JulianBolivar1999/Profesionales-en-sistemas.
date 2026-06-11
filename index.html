@@ -1,38 +1,198 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Profesionales en Sistemas</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+header h1{
+font-size:3rem;
+margin-bottom:10px;
+}
+
+header p{
+font-size:1.2rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+section{
+padding:60px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#1e3a8a;
+}
+
+.servicios{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-bottom:10px;
+color:#1e3a8a;
+}
+
+.sobre{
+background:white;
+}
+
+.contacto{
+background:#111827;
+color:white;
+text-align:center;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+</style>
 </head>
+
 <body>
 
+<header>
 <h1>Profesionales en Sistemas</h1>
+<p>Soluciones tecnológicas con calidad, confianza y cumplimiento.</p>
 
-<h2>Soluciones tecnológicas con calidad y cumplimiento</h2>
+<a class="btn" href="https://wa.me/573136602502">
+Solicitar Servicio
+</a>
+</header>
 
-<p>
-Ofrecemos servicio técnico para computadores tanto en software como hardware.
-También vendemos componentes para computadores e instalamos los equipos que
-nuestros clientes necesiten.
-</p>
+<section class="sobre">
 
-<h3>Servicios</h3>
-<ul>
-<li>Mantenimiento de computadores</li>
-<li>Reparación de hardware</li>
-<li>Instalación de software</li>
-<li>Venta de componentes</li>
-<li>Actualización de equipos</li>
-<li>Soporte técnico</li>
-</ul>
-
-<h3>¿Por qué elegirnos?</h3>
+<h2>¿Quiénes Somos?</h2>
 
 <p>
-Nuestra fortaleza es el cumplimiento y la calidad de nuestros servicios,
-brindando soluciones rápidas y confiables.
+Somos una empresa especializada en soporte técnico para computadores,
+ofreciendo soluciones tanto de software como de hardware.
+Nuestro compromiso es brindar un servicio profesional, garantizando
+calidad, cumplimiento y atención personalizada para cada cliente.
 </p>
+
+</section>
+
+<section>
+
+<h2>Nuestros Servicios</h2>
+
+<div class="servicios">
+
+<div class="card">
+<h3>Soporte Técnico</h3>
+<p>Diagnóstico y solución de problemas en computadores de escritorio y portátiles.</p>
+</div>
+
+<div class="card">
+<h3>Software</h3>
+<p>Instalación de sistemas operativos, programas y optimización del rendimiento.</p>
+</div>
+
+<div class="card">
+<h3>Hardware</h3>
+<p>Reparación, mantenimiento y actualización de componentes.</p>
+</div>
+
+<div class="card">
+<h3>Venta de Componentes</h3>
+<p>Memorias RAM, discos SSD, fuentes de poder, tarjetas y más.</p>
+</div>
+
+<div class="card">
+<h3>Instalación Profesional</h3>
+<p>Montaje e instalación de componentes adquiridos por el cliente.</p>
+</div>
+
+<div class="card">
+<h3>Mantenimiento Preventivo</h3>
+<p>Limpieza y optimización para prolongar la vida útil de los equipos.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="contacto">
+
+<h2>Contacto</h2>
+
+<p><strong>Teléfono / WhatsApp:</strong> 313 660 2502</p>
+<p><strong>Ciudad:</strong> Bogotá D.C.</p>
+
+<br>
+
+<a class="btn" href="https://wa.me/573136602502">
+Contactar por WhatsApp
+</a>
+
+</section>
+
+<footer>
+<p>© 2026 Profesionales en Sistemas - Todos los derechos reservados.</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/573136602502">
+WhatsApp
+</a>
 
 </body>
 </html>
+```
